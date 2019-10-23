@@ -3,7 +3,7 @@ import { connect } from "react-redux"
 
 import AddedFeature from './AddedFeature';
 
-import { addFeature } from "../actions/total" 
+import { removeFeature } from "../actions/total" 
 
 const AddedFeatures = props => {
   return (
@@ -12,7 +12,7 @@ const AddedFeatures = props => {
       {props.features.length ? (
         <ol type="1">
           {props.features.map(item => (
-            <AddedFeature key={item.id} feature={item} addFeature={props.addFeature} />
+            <AddedFeature key={item.id} feature={item} removeFeature={props.removeFeature} />
           ))}
         </ol>
       ) : (
@@ -29,7 +29,7 @@ function mapStateToProps(state) {
 }
 
 const mapDispatchToProps ={
-  addFeature
+  removeFeature
 }
 
 export default connect(

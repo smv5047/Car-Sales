@@ -34,7 +34,12 @@ export function reducer( state=initialState,  action) {
             let newFeatures = [...state.car.features]
             newFeatures.splice(state.car.features.indexOf(action.payload.feature), 1);
             return {
-                newFeatures
+                ...state,
+                car:{
+                    ...state.car,
+                    price: state.car.price - action.payload.price,
+                    features: [newFeatures]
+                },
             }
         // case "UPDATE_TOTAL":
         //     return {
