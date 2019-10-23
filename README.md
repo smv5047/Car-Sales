@@ -65,6 +65,46 @@ Set up "empty" reducer and initial state 👉 Set up store and Provider 👉
 Connect components 👉 Add events and event handlers in UI 👉 Build action creators 👉
 write the reducer logic for the actions 👉 Rinse and repeat
 ```
+-Overall
+[X] install redux dependency
+[ ] Setup empty reducer/initial states
+[X] Set up store 
+[X] Wrap App in Provider
+
+-App.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Header.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Total.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Added Features.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Added Feature.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Additional Features.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Additional Feature.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
 
 ## _MVP Requirements:_
 
