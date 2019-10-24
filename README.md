@@ -22,15 +22,15 @@ In this project you will implement Redux to manage the state for this React appl
 
 This project was put together using create-react-app (CRA). You will not need to install CRA in order to make this project work. Follow the steps below to setup the project with the proper dependencies.
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
-- [ ] Add the dependencies you will need to implement Redux. Also, add you may need to add `node-sass` as a dependency.
-- [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add your team lead as collaborator on Github.
+- [X] Clone your OWN version of the repository in your terminal
+- [X] Download project dependencies by running one of these two commands `yarn` or `npm install`
+- [X] Add the dependencies you will need to implement Redux. Also, add you may need to add `node-sass` as a dependency.
+- [X] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
       Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -65,6 +65,46 @@ Set up "empty" reducer and initial state 👉 Set up store and Provider 👉
 Connect components 👉 Add events and event handlers in UI 👉 Build action creators 👉
 write the reducer logic for the actions 👉 Rinse and repeat
 ```
+-Overall
+[X] install redux dependency
+[ ] Setup empty reducer/initial states
+[X] Set up store 
+[X] Wrap App in Provider
+
+-App.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Header.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Total.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Added Features.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Added Feature.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Additional Features.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
+
+-Additional Feature.js
+[ ] Add event/event handlers 
+[ ] Build Action Creators
+[ ] Write Reducer logic
 
 ## _MVP Requirements:_
 
