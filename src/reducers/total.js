@@ -31,14 +31,14 @@ export function reducer( state=initialState,  action) {
                 }
             };
         case REMOVE_FEATURE:
-            let newFeatures = [...state.car.features]
-            newFeatures.splice(state.car.features.indexOf(action.payload.feature), 1);
+            let updatedFeatures = []
+            updatedFeatures = state.car.features.filter(feature => feature.name !=action.payload.name)
             return {
                 ...state,
                 car:{
                     ...state.car,
                     price: state.car.price - action.payload.price,
-                    features: [newFeatures]
+                    features: updatedFeatures
                 },
             }
         // case "UPDATE_TOTAL":
